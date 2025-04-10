@@ -1,0 +1,15 @@
+[project]
+name = "langgraph-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "finnhub-python>=2.4.23",
+    "langchain>=0.3.23",
+    "langchain-groq>=0.3.2",
+    "langchain-mcp-adapters>=0.0.7",
+    "langchain-openai>=0.3.12",
+    "langgraph>=0.3.27",
+    "streamlit>=1.44.1",
+]
